@@ -96,7 +96,7 @@ if __name__ == "__main__":
     owl = Owl(70, ["smart"])
 
     # Initializing object by class method - ReadClassFromLine
-    parrot = Bird("Parrot", 50, ["colorful", "talking", "friendly"], True)
+    parrot = Bird.ReadClassFromLine('Parrot:50:["colorful", "talking", "friendly"]:True')
 
     # Get attributes of an instance
     print(f"Skills of hawk object: {hawk.skills}")
